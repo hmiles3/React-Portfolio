@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function Home() {
+function About() {
   return (
     <div>
       <Hero>
@@ -28,4 +28,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;
