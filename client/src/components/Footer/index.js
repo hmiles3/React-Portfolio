@@ -4,7 +4,7 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Inventory Tracker 2020</span>
+      <span>Henry Miles Portfolio</span>
     </footer>
   );
 }

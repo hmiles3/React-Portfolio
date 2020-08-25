@@ -6,21 +6,21 @@ import "./style.css";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Inventory Tracker
+      <Link className="navbar-brand">
+        Henry Miles
       </Link>
       <div>
         <ul className="navbar-nav">
           <li className="nav-item">
             <Link
-              to="/data"
+              to="/"
               className={
-                window.location.pathname === "/data" || window.location.pathname === "/data"
+                window.location.pathname === "/" || window.location.pathname === "/"
                   ? "nav-link active"
                   : "nav-link"
               }
             >
-              Data
+              About
             </Link>
           </li>
           <li className="nav-item">
@@ -28,7 +28,7 @@ function Navbar() {
               to="/discover"
               className={window.location.pathname === "/discover" ? "nav-link active" : "nav-link"}
             >
-              Orders
+              Portfolio
             </Link>
           </li>
           <li className="nav-item">
@@ -36,7 +36,7 @@ function Navbar() {
               to="/search"
               className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
             >
-              Inventory
+              Contact
             </Link>
           </li>
         </ul>

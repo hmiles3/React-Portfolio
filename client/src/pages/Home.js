@@ -7,21 +7,20 @@ import Col from "../components/Col";
 function Home() {
   return (
     <div>
-      <Hero backgroundImage="https://s.hdnux.com/photos/01/07/72/06/18850183/5/920x920.jpg">
-        <h1>Inventory Tracker</h1>
-        <h2>View your restaurant's inventory data!</h2>
+      <Hero>
+        <h1>My React Portfolio</h1>
+        <h2>Henry Miles</h2>
       </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Inventory Tracker!</h1>
+            <h1>About Me</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
             <p>
-              A simple way of keeping tabs on how efficiently your food is being served, and which items are ordered the most often. By calculating the weight of your items, and the amount that goes into one serving, this app can represent the amount of orders you would serve at maximum efficiency. Just report your orders and when a container is emptied, and you will see how many orders were actually served. Using the data visualization, you will be able to view various statistics about how your inventory is currently being managed in order to best help you run your business!
-            </p>
+            My name is Henry Miles, but I often go by Hank. I am a Georgia Tech alumnus with a degree in Literature, Media, and Communciation. While I am still trying to figure out exactly what it is that I want to do, I feel fairly certain that programming skills will come in handy for securing a more promising career. My interests lie largely in media and storytelling. I enjoy reading, watching film and television, and especially playing video games. Something about the interactive medium interests and engages me more than other forms of storytelling so I take a lot of interest in how many games use all of their components to craft a meaningful experience.            </p>
           </Col>
         </Row>
       </Container>
