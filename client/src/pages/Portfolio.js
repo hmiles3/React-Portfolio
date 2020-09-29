@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container"
 import Row from "../components/Row"
 import Whiskey from "../components/Images/Whiskey.png";
-import GoT from "../components/Images/GoT.png"
+import Inventory from "../components/Images/Inventory.jpg"
 import Password from "../components/Images/Password.png"
 import Planner from "../components/Images/Planner.png"
 import Burger from "../components/Images/Burger.png"
@@ -23,11 +23,11 @@ function Portfolio(){
       </Row>
       <Row>
       <div class="col-lg-12">
-      <a href ="https://path-to-the-iron-throne.herokuapp.com/">
-        <img src={GoT} alt="Game of Thrones"/>
+      <a href ="https://cryptic-tundra-71121.herokuapp.com/">
+        <img src={Inventory} alt="Inventory Tracker"/>
       </a>
-      <h2>Path to the Iron Throne</h2>
-      <p>https://github.com/tylerroth15/GOT-Tracker</p>
+      <h2>Inventory Tracker</h2>
+      <p>https://github.com/hmiles3/inventory-tracker</p>
       </div>
       </Row>
       <Row>
