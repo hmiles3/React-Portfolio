@@ -13,14 +13,14 @@ function Contact(){
         <p>Phone: 912-656-8706</p>
         <br>
         </br>
-        <a href = "https://www.linkedin.com/in/henry-miles-706a83132/" alt="LinkedIn">LinkedIn</a>
+        <a href = "https://www.linkedin.com/in/hank-miles-706a83132/" alt="LinkedIn">LinkedIn</a>
         <br>
         </br>
         <br>
         </br>
         <br>
         </br>
-        <a href ="https://drive.google.com/file/d/1wBFTfXZea7HqjJwZMPdJQVqly8Op7KGh/view" alt="Resume">Resume</a>
+        <a href ="https://drive.google.com/file/d/1lMek0cixOYTbX1-ii9_L7kq9MQEG0O50/view?usp=sharing" alt="Resume">Resume</a>
         <br>
         </br>
         <br>
